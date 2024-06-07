@@ -1,7 +1,9 @@
 # HCM2 - used by internal web application that takes an uploaded excel file and loads it's data into a staging database table.  
 
 ## Description
-`hcm2.py` is a Python script designed to load data from Excel files into a staging database. It supports both SQL Server and MySQL through ODBC connections.
+`hcm2.py` is a Python script designed to load data from Excel files into a staging database. 
+It supports both SQL Server and MySQL through ODBC connections.  It will require creating an ODBC 
+DSN on the server.
 
 ## Features
 - Uploads excel data to a staging database table.  You will have to configure to 
