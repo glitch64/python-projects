@@ -1,4 +1,4 @@
-# HCM2 - used by internal web application that takes an uploaded excel file and loads it's data into a staging database table.  
+# HCM2 - takes from an uploaded excel workbook and loads data into a staging database table.  
 
 ## Description
 `hcm2.py` is a Python script designed to load data from Excel files into a staging database. 
