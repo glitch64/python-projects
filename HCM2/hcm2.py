@@ -3,7 +3,7 @@ import pyodbc
 import sys
 # Give the location of the file
 filename = str(sys.argv[1])
-path = "c:\\python\\HCM2\\input\\" + filename 
+path = "c:\\(your path)\\" + filename 
  
 # To open the workbook 
 # workbook object is created
@@ -14,8 +14,8 @@ wb_obj = openpyxl.load_workbook(path)
 sheet_obj = wb_obj["Student Data"]
 
 # Connect to the database using a DSN
-cnxn = pyodbc.connect("DSN=nsad;UID=applogin;PWD=~!@#$Jessam00")
-sql = "truncate table cns_stagging.dbo.HCM2_Student"
+cnxn = pyodbc.connect("DSN=nsad;UID="<your userid>";PWD="<your password>")
+sql = "truncate table <your table>"
 cursor = cnxn.cursor()
 cursor.execute(sql)
 cursor.commit()
@@ -37,7 +37,7 @@ for i in range(8,maxrow + 1):
     telephone = sheet_obj.cell(row=i,column=6).value.strip()
 
 
-    sql = "insert into cns_stagging.dbo.HCM2_Student (seq_nbr, last_name, first_name, ssn, telephone, awardyear, filename) values (" + str(sequence_number) + ", '" + last_name + "','" + first_name + "','" + ssn + "','" + telephone + "','" + awardyear + "','" + filename + "' )"
+    sql = "insert into <your table> (seq_nbr, last_name, first_name, ssn, telephone, awardyear, filename) values (" + str(sequence_number) + ", '" + last_name + "','" + first_name + "','" + ssn + "','" + telephone + "','" + awardyear + "','" + filename + "' )"
     cursor.execute(sql)
     cursor.commit()
 
