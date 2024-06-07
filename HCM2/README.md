@@ -27,6 +27,7 @@ the data and table structure
     ```
 
 * Student Datasheet.xlsx is a template of the excel spreadsheet being loaded.
+* Walkthrough.pdf :  Walkthrough of the complete HCM2 Web application.  hcm2.py is only used in the data load from excel to staging table.
 
 ## Usage
 ```C:\\<yourpath>\\>python hcm2.py```
