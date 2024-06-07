@@ -38,8 +38,3 @@ ODBC <br>
 ![ODBC SQL Server](../z_images/odbcconfig.jpg)
 
     ```
-
-3. Follow the prompts to enter the DSN, username, and password for the database connection.
-
-## License
-This project is licensed under the MIT License.
