@@ -27,7 +27,7 @@
     ```
 
 ## Usage
-C:\<yourpath>\>python hcm2.py
+C:\\<yourpath>\\>python hcm2.py
 ## Screenshots
 Directory Structure:<br>
 ![Directory structure](../z_images/folders2.jpg)
