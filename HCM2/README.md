@@ -1,7 +1,7 @@
-# HCM2 - takes from an uploaded excel workbook and loads data into a staging database table.  
+# HCM2 Student Datasheet process.  Excel load to staging database table
 
 ## Description
-`hcm2.py` is a Python script designed to load data from Excel files into a staging database. 
+`hcm2.py` is a Python script designed to load data from the Dept of Education's HCM2 Student Datasheet Excel files into a staging database. 
 It supports both SQL Server and MySQL through ODBC connections.  It will require creating an ODBC 
 DSN on the server.
 
@@ -25,6 +25,8 @@ the data and table structure
     ```bash
     pip install openpyxl pyodbc
     ```
+
+* Student Datasheet.xlsx is a template of the excel spreadsheet being loaded.
 
 ## Usage
 ```C:\\<yourpath>\\>python hcm2.py```
