@@ -29,12 +29,12 @@
 ## Usage
 ## C:\<yourpath>\>python hcm2.py
 ## Screenshots
-Directory Structure:
+Directory Structure:<br>
 ![Directory structure](../z_images/folders2.jpg)
 
 
 
-ODBC 
+ODBC <br>
 ![ODBC SQL Server](../z_images/odbcconfig.jpg)
 
     ```
