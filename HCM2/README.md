@@ -4,11 +4,9 @@
 `hcm2.py` is a Python script designed to load data from Excel files into a staging database. It supports both SQL Server and MySQL through ODBC connections.
 
 ## Features
-- Automatically creates database tables based on Excel worksheet names and columns.
-- Inserts data from Excel worksheets into the corresponding database tables.
-- Processes multiple Excel files from a specified input directory.
-- Moves processed files to a history directory.
-
+- Uploads excel data to a staging database table.  You will have to configure to 
+the data and table structure
+ 
 ## Requirements
 - Python 3.x
 - `openpyxl`
