@@ -29,8 +29,8 @@
 ## Usage
 ## C:\<yourpath>\>python hcm2.py
 ## Screenshots
-![Directory structure](z_images/folders2.jpg)
-![ODBC SQL Server](z_images/odbcconfig.jpg)
+![Directory structure](../z_images/folders2.jpg)
+![ODBC SQL Server](../z_images/odbcconfig.jpg)
 
     ```
 
