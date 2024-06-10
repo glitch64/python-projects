@@ -23,7 +23,7 @@ Update the `get_db_connection` function in `utils.py` with the correct DSN, user
 ```python
 def get_db_connection():
     connection = pyodbc.connect("DSN=<ODBC DSN name>;UID=<sql user ID>;PWD=<sql password>")
-    return connection ```
+    return connection```
 	
 ## Running the Application
 Run the Flask application:
@@ -49,6 +49,9 @@ Generate Tuition Stipend File
 1.  Select a transaction date from the dropdown menu.
 2.  Click the "Generate Tuition Stipend File" button.
 3.  The generated tuition stipend file will be downloaded as ecsi_tuition_stipend_file.txt.
+
+makeservice.py = Python script to make the python program a windows service.
+
 
 Acknowledgements
 Built with Flask - a lightweight WSGI web application framework in Python.
