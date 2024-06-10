@@ -52,6 +52,7 @@ Generate Tuition Stipend File
 
 makeservice.py = Python script to make the python program a windows service.
 
+Using IIS server with reverse-proxy rule to url:port of application.
 
 Acknowledgements
 Built with Flask - a lightweight WSGI web application framework in Python.
